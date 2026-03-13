@@ -9,6 +9,13 @@ public class Operador {
         System.out.println(num1 + " - "+ num2 + " = "+ (num1-num2));
         System.out.println(num1 + " * "+ num2 + " = "+ (num1*num2));
         System.out.println(num1 + " / "+ num2 + " = "+ ((float)num1/(float) num2));
+        System.out.println(num1 + " % "+ num2 + " = "+ (num1%num2));
+        System.out.println(num1 + " < "+ num2 + " = "+ (num1<num2));
+        System.out.println(num1 + " > "+ num2 + " = "+ (num1>num2));
+        System.out.println(num1 + " <= "+ num2 + " = "+ (num1<=num2));
+        System.out.println(num1 + " >= "+ num2 + " = "+ (num1>=num2));
+        System.out.println(num1 + " == "+ num2 + " = "+ (num1==num2));
+        System.out.println(num1 + " != "+ num2 + " = "+ (num1!=num2));
     }
 
 }
