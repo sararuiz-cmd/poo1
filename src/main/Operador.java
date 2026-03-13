@@ -1,0 +1,14 @@
+package main;
+
+public class Operador {
+    public static void main(String[] args) {
+        int num1,num2;
+        num1=3;
+        num2=10;
+        System.out.println(num1 + " + "+ num2 + " = "+ (num1+num2));
+        System.out.println(num1 + " - "+ num2 + " = "+ (num1-num2));
+        System.out.println(num1 + " * "+ num2 + " = "+ (num1*num2));
+        System.out.println(num1 + " / "+ num2 + " = "+ ((float)num1/(float) num2));
+    }
+
+}
